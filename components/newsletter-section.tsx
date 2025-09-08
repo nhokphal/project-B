@@ -11,7 +11,7 @@ export function NewsletterSection() {
           <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10 rounded-3xl" />
 
           <div className="relative z-10 space-y-6">
-            <div className="inline-flex p-4 rounded-2xl bg-primary/10 mb-4">
+            <div className="inline-flex p-4 rounded-2xl mb-4">
               <Mail className="h-8 w-8 text-primary" />
             </div>
 
@@ -28,7 +28,7 @@ export function NewsletterSection() {
                 <Input
                   type="email"
                   placeholder="Enter your email address"
-                  className="glass border-white/20 focus:border-primary/50"
+                  className=" border-white/20 "
                 />
                 <Button className="shrink-0 group">
                   <Send className="h-4 w-4 group-hover:translate-x-1 transition-transform" />

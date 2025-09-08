@@ -12,9 +12,7 @@ export function ContactInfo() {
 
       <div className="space-y-6">
         <div className="flex items-start space-x-4">
-          <div className="glass rounded-lg p-3">
-            <MapPin className="h-5 w-5 text-primary" />
-          </div>
+      
           <div>
             <h3 className="font-medium mb-1">Address</h3>
             <p className="text-muted-foreground">1734 Sanfransico, CA 93063</p>
@@ -22,9 +20,7 @@ export function ContactInfo() {
         </div>
 
         <div className="flex items-start space-x-4">
-          <div className="glass rounded-lg p-3">
-            <Mail className="h-5 w-5 text-primary" />
-          </div>
+  
           <div>
             <h3 className="font-medium mb-1">Email</h3>
             <p className="text-muted-foreground">hello@stablotemplate.com</p>
@@ -32,9 +28,7 @@ export function ContactInfo() {
         </div>
 
         <div className="flex items-start space-x-4">
-          <div className="glass rounded-lg p-3">
-            <Phone className="h-5 w-5 text-primary" />
-          </div>
+
           <div>
             <h3 className="font-medium mb-1">Phone</h3>
             <p className="text-muted-foreground">+1 (987) 4587 899</p>
